@@ -1,0 +1,1509 @@
+[
+  {
+    "id": "SA-01",
+    "phenomenon": "expressive act: responding to an emotional disclosure",
+    "costar": {
+      "context": "A colleague and friend, Meera, messages you privately at work: she has just been told that her position is being made redundant.",
+      "objective": "Reply to Meera so that she feels heard and supported; do not try to solve the problem yet.",
+      "style": "Informal private chat between friends who are also colleagues.",
+      "tone": "Warm, empathetic and unhurried.",
+      "audience": "Meera, an adult peer who is upset and has not asked for advice.",
+      "response": "Two or three sentences of plain text."
+    },
+    "user_turn": "I just lost my job today and I don't know what to do.",
+    "image": null,
+    "format_rule": {
+      "sent_min": 2,
+      "sent_max": 3
+    },
+    "reference": "Oh Meera, I'm so sorry. That is a horrible shock, and it makes sense that you don't know what to do yet. I'm here whenever you want to talk it through.",
+    "appropriate": "Meera, that's awful news and I'm really sorry you're going through it. Of course you feel lost right now; anyone would. Whenever you feel like talking, I'm around.",
+    "foils": [
+      {
+        "target": "T",
+        "text": "Meera, redundancy is a routine business occurrence. It is unproductive to say that you don't know what to do. I'm available if you want to talk it through."
+      },
+      {
+        "target": "A",
+        "text": "Oh Meera, I'm so sorry. Redundancy means that a company has decided it no longer needs a particular job, so the person who does that job has to leave. I'm here whenever you want to talk it through."
+      }
+    ],
+    "category": "speech_acts"
+  },
+  {
+    "id": "SA-02",
+    "phenomenon": "indirect directive: a statement used as a request",
+    "costar": {
+      "context": "You are a voice assistant that controls the heating and the windows in a family home. The living-room window is open and the thermostat is set to 18 degrees Celsius. A guest is sitting in the living room.",
+      "objective": "Respond helpfully to what the guest wants.",
+      "style": "Spoken and conversational.",
+      "tone": "Friendly and attentive.",
+      "audience": "A house guest who is unfamiliar with the system.",
+      "response": "One short spoken sentence."
+    },
+    "user_turn": "It's cold in here.",
+    "image": null,
+    "format_rule": {
+      "sent_min": 1,
+      "sent_max": 1
+    },
+    "reference": "I'm sorry about that; I can close the living-room window and turn the heating up to 21 degrees if you'd like.",
+    "appropriate": "Let me fix that for you: shall I shut the window and raise the temperature a few degrees?",
+    "foils": [
+      {
+        "target": "O",
+        "text": "Yes, the living-room temperature is currently 18 degrees and the window is open."
+      },
+      {
+        "target": "R",
+        "text": "I'm sorry about that. I can close the living-room window. I can also turn the heating up to 21 degrees. Alternatively, I can set a heating schedule, switch to eco mode or read out the weather forecast. Please tell me which of these options you would like."
+      }
+    ],
+    "category": "speech_acts"
+  },
+  {
+    "id": "SA-03",
+    "phenomenon": "indirect question: a yes/no form used as a request for directions",
+    "costar": {
+      "context": "You are staffing the information desk at a museum. The central railway station is a five-minute walk away: out of the main door, left along Park Road, and it is on the right just after the bridge.",
+      "objective": "Help the visitor.",
+      "style": "Clear everyday spoken English.",
+      "tone": "Polite and helpful.",
+      "audience": "A tourist who does not know the city.",
+      "response": "One or two sentences."
+    },
+    "user_turn": "Excuse me, do you know where the station is?",
+    "image": null,
+    "format_rule": {
+      "sent_min": 1,
+      "sent_max": 2
+    },
+    "reference": "Yes, it's about five minutes on foot: go out of the main door, turn left along Park Road, and the station is on your right just after the bridge.",
+    "appropriate": "Of course. Leave by the main entrance, head left down Park Road, and you'll see the station on the right once you've crossed the bridge; it takes roughly five minutes.",
+    "foils": [
+      {
+        "target": "O",
+        "text": "Yes, I do know where the station is."
+      },
+      {
+        "target": "C",
+        "text": "Yes, it's about five minutes on foot: go out of the main door, turn right along Mill Lane, and the station is on your left just before the bridge."
+      }
+    ],
+    "category": "speech_acts"
+  },
+  {
+    "id": "SA-04",
+    "phenomenon": "refusal of an invitation with face-saving redress",
+    "costar": {
+      "context": "Your close friend Arjun has invited you to his birthday party on Saturday night. You have a final exam on Monday morning and need the weekend to revise, so you cannot go.",
+      "objective": "Decline the invitation while protecting the friendship.",
+      "style": "Casual text message between close friends.",
+      "tone": "Affectionate and apologetic.",
+      "audience": "Arjun, a close friend of your own age.",
+      "response": "Two or three short sentences."
+    },
+    "user_turn": "Are you coming to my party on Saturday?",
+    "image": null,
+    "format_rule": {
+      "sent_min": 2,
+      "sent_max": 3
+    },
+    "reference": "I really wish I could, but my final exam is on Monday and I have to spend the weekend revising. I'm so sorry to miss it. Let me take you out to celebrate properly once the exam is done!",
+    "appropriate": "Ah, I'd love to be there, but I've got my last exam on Monday morning and I need the whole weekend to study. Gutted to miss your birthday. Dinner's on me next week to make up for it!",
+    "foils": [
+      {
+        "target": "T",
+        "text": "No. My final exam is on Monday and I have to spend the weekend revising. Parties are not a priority for me right now."
+      },
+      {
+        "target": "S",
+        "text": "I regret to inform you that I am unable to attend the aforementioned event owing to a scheduled examination on Monday. Please accept my sincere apologies. I propose an alternative celebration at a mutually convenient date."
+      }
+    ],
+    "category": "speech_acts"
+  },
+  {
+    "id": "SA-05",
+    "phenomenon": "scalar implicature and the maxim of quantity",
+    "costar": {
+      "context": "You are a class teacher. In last week's mathematics test, 18 of the 30 pupils in the class passed. A parent is asking you at a parents' evening.",
+      "objective": "Answer the parent's question truthfully and informatively.",
+      "style": "Plain spoken English.",
+      "tone": "Honest and reassuring.",
+      "audience": "A parent with no background in educational statistics.",
+      "response": "One or two sentences."
+    },
+    "user_turn": "Did everyone pass the maths test?",
+    "image": null,
+    "format_rule": {
+      "sent_min": 1,
+      "sent_max": 2
+    },
+    "reference": "Not everyone, I'm afraid: 18 of the 30 pupils passed, and we're giving extra support to the others before the next test.",
+    "appropriate": "No, not all of them. Eighteen out of thirty got through, and the rest are getting additional help so that they can catch up.",
+    "foils": [
+      {
+        "target": "C",
+        "text": "Yes, everyone did: all 30 pupils passed, so no extra support is needed before the next test."
+      },
+      {
+        "target": "A",
+        "text": "Not everyone: the pass rate was 0.60 (n = 30), and the residual 40% fell below the criterion-referenced threshold pending remediation."
+      }
+    ],
+    "category": "speech_acts"
+  },
+  {
+    "id": "SA-06",
+    "phenomenon": "complaint: an assertion that calls for apology and remedy",
+    "costar": {
+      "context": "You are the front-of-house manager at a busy restaurant on a Saturday evening. A table for two will be ready in about five minutes, and you are able to offer complimentary drinks.",
+      "objective": "Deal with the guest's complaint.",
+      "style": "Courteous service English.",
+      "tone": "Apologetic and calm.",
+      "audience": "An irritated guest who has been kept waiting.",
+      "response": "Two sentences."
+    },
+    "user_turn": "We've been waiting forty minutes for a table.",
+    "image": null,
+    "format_rule": {
+      "sent_min": 2,
+      "sent_max": 2
+    },
+    "reference": "I'm very sorry about the wait; that is much longer than it should be. Your table will be ready in about five minutes, and I'd like to offer you both a drink on the house in the meantime.",
+    "appropriate": "Please accept my apologies, you shouldn't have had to wait this long. We'll have you seated in roughly five minutes, and your first round of drinks is on us while you wait.",
+    "foils": [
+      {
+        "target": "O",
+        "text": "Yes, that is right; you arrived forty minutes ago. Saturday evenings are our busiest time of the week."
+      },
+      {
+        "target": "T",
+        "text": "Saturdays are busy and you didn't book ahead, so a wait is to be expected. Your table will be ready in about five minutes, and there are drinks if you want one."
+      }
+    ],
+    "category": "speech_acts"
+  },
+  {
+    "id": "SA-07",
+    "phenomenon": "high-imposition request to a superior",
+    "costar": {
+      "context": "You are a final-year undergraduate. You want Professor Banerjee, who taught you two courses last year, to write a recommendation letter for a master's application that is due in four weeks.",
+      "objective": "Ask the professor for the letter.",
+      "style": "Formal academic email.",
+      "tone": "Respectful and appreciative, acknowledging the imposition.",
+      "audience": "A senior professor who is busy and under no obligation to agree.",
+      "response": "A subject line followed by an email body of three or four sentences."
+    },
+    "user_turn": "Draft the email for me.",
+    "image": null,
+    "format_rule": {
+      "subject_line": true,
+      "sent_min": 3,
+      "sent_max": 4
+    },
+    "reference": "Subject: Request for a recommendation letter\n\nDear Professor Banerjee, I hope you are well. I am applying for a master's programme and would be very grateful if you would consider writing a recommendation letter for me; the deadline is in four weeks. I realise this is a significant request at a busy time, and I would be glad to send my CV and draft statement to make it easier. Thank you for considering it.",
+    "appropriate": "Subject: Recommendation letter request\n\nDear Professor Banerjee, I enjoyed both of your courses last year and am now applying for a master's degree. Would you be willing to write a letter of recommendation in support of my application, which is due in four weeks? I understand how full your schedule is, and I can share my CV and statement of purpose whenever convenient. I would greatly appreciate your help.",
+    "foils": [
+      {
+        "target": "T",
+        "text": "Subject: Request for a recommendation letter\n\nDear Professor Banerjee, I am applying for a master's programme and need a recommendation letter from you. The deadline is in four weeks, so please send it by then. I will send my CV so that you can get started."
+      },
+      {
+        "target": "R",
+        "text": "Dear Professor Banerjee, I would be very grateful if you would consider writing a recommendation letter for my master's application, which is due in four weeks."
+      }
+    ],
+    "category": "speech_acts"
+  },
+  {
+    "id": "SA-08",
+    "phenomenon": "expressive act: condolence",
+    "costar": {
+      "context": "Your colleague Daniel's father died last week. Daniel returns to the office today. You are not close friends but have worked in the same team for two years.",
+      "objective": "Express your condolences.",
+      "style": "Simple and sincere; a short handwritten note.",
+      "tone": "Gentle and respectful.",
+      "audience": "A grieving colleague who may not want a long conversation.",
+      "response": "Two sentences."
+    },
+    "user_turn": "Write the note I should leave on Daniel's desk.",
+    "image": null,
+    "format_rule": {
+      "sent_min": 2,
+      "sent_max": 2
+    },
+    "reference": "Dear Daniel, I was very sorry to hear about your father. Please don't worry about anything on the project this week; I'm here if you need anything at all.",
+    "appropriate": "Daniel, I'm so sorry for the loss of your father. Take all the time you need, and if I can take anything off your plate, just say the word.",
+    "foils": [
+      {
+        "target": "T",
+        "text": "Dear Daniel, I heard about your father. These things happen to everyone eventually, so try to get back up to speed on the project this week."
+      },
+      {
+        "target": "A",
+        "text": "Dear Daniel, I was very sorry to hear about your father; you must tell me everything about how it happened, how the funeral went and how your mother is coping. Let's have a long lunch today so that you can talk me through it all."
+      }
+    ],
+    "category": "speech_acts"
+  },
+  {
+    "id": "SA-09",
+    "phenomenon": "refusal of a request from a superior",
+    "costar": {
+      "context": "Your line manager has asked whether you can work this Saturday to help finish a client report. You have a long-standing family commitment that day and cannot come in, but you could stay late on Thursday and Friday.",
+      "objective": "Refuse the Saturday request without damaging the working relationship.",
+      "style": "Professional workplace chat message.",
+      "tone": "Polite, firm and constructive.",
+      "audience": "Your line manager, who is under deadline pressure.",
+      "response": "Two or three sentences."
+    },
+    "user_turn": "Can you come in this Saturday to help us finish the report?",
+    "image": null,
+    "format_rule": {
+      "sent_min": 2,
+      "sent_max": 3
+    },
+    "reference": "I'm afraid I can't make Saturday because of a long-standing family commitment. I do want to help get the report finished, so I could stay late on Thursday and Friday instead. Would that work?",
+    "appropriate": "Unfortunately Saturday isn't possible for me, as I have a family commitment that I can't move. I'd be happy to put in extra hours on Thursday and Friday evening to help us hit the deadline, if that's useful.",
+    "foils": [
+      {
+        "target": "T",
+        "text": "No, I can't make Saturday. Weekends are my own time and this deadline is not my problem. I could stay late on Thursday and Friday instead."
+      },
+      {
+        "target": "S",
+        "text": "Nah, Saturday's a no-go, got family stuff lol. Tell you what tho, I can totally crash at the office late Thurs and Fri. That cool?"
+      }
+    ],
+    "category": "speech_acts"
+  },
+  {
+    "id": "SA-10",
+    "phenomenon": "apology with acceptance of responsibility and offer of repair",
+    "costar": {
+      "context": "You are a project manager at a design agency. The brochure draft promised to a client, Ms Okafor, for last Friday was not delivered because of an internal scheduling error. It will be ready this Wednesday.",
+      "objective": "Apologise to the client and restore her confidence.",
+      "style": "Professional business email.",
+      "tone": "Sincere and accountable, without excuses.",
+      "audience": "A paying client who is annoyed about the delay.",
+      "response": "Exactly three sentences."
+    },
+    "user_turn": "Write the body of the apology email.",
+    "image": null,
+    "format_rule": {
+      "sent_min": 3,
+      "sent_max": 3
+    },
+    "reference": "Dear Ms Okafor, I apologise that the brochure draft did not reach you last Friday as promised. The delay was caused by a scheduling error on our side, for which I take full responsibility. You will have the draft this Wednesday, and I will confirm personally once it has been sent.",
+    "appropriate": "Dear Ms Okafor, I am sorry that we missed last Friday's deadline for your brochure draft. This was our mistake, the result of an internal scheduling error, and I accept responsibility for it. The draft will be with you on Wednesday, and I will write to you myself as soon as it goes out.",
+    "foils": [
+      {
+        "target": "T",
+        "text": "Dear Ms Okafor, the brochure draft did not reach you last Friday. Delays like this are normal in creative work and clients usually understand. You will have the draft this Wednesday."
+      },
+      {
+        "target": "R",
+        "text": "Dear Ms Okafor, I apologise. The brochure draft did not reach you last Friday. That was promised. The delay was caused by a scheduling error on our side. I take full responsibility for it. You will have the draft this Wednesday. I will confirm personally once it has been sent."
+      }
+    ],
+    "category": "speech_acts"
+  },
+  {
+    "id": "SA-11",
+    "phenomenon": "verbal irony: sarcastic praise that conveys a complaint",
+    "costar": {
+      "context": "You are an email assistant. Your user has just received a calendar invitation from a colleague, Priya, for a recurring team meeting at 7 a.m. every Monday.",
+      "objective": "Draft the reply that the user actually wants to send to Priya.",
+      "style": "Polite workplace email.",
+      "tone": "Courteous and cooperative.",
+      "audience": "Priya, a colleague of the same seniority as the user.",
+      "response": "Two sentences."
+    },
+    "user_turn": "Oh great, another Monday meeting at 7 a.m. Just what I needed. Reply to Priya for me.",
+    "image": null,
+    "format_rule": {
+      "sent_min": 2,
+      "sent_max": 2
+    },
+    "reference": "Hi Priya, thanks for setting this up. A 7 a.m. start on Mondays is difficult for me; would it be possible to move the meeting to a later slot?",
+    "appropriate": "Hi Priya, thank you for organising the meeting. Seven on a Monday morning is hard for me to manage, so could we look at a later time?",
+    "foils": [
+      {
+        "target": "O",
+        "text": "Hi Priya, thanks for setting this up. A 7 a.m. start on Mondays is great; it is just what I needed!"
+      },
+      {
+        "target": "T",
+        "text": "Priya, a 7 a.m. meeting on Mondays is ridiculous. Move the meeting to a later slot."
+      }
+    ],
+    "category": "speech_acts"
+  },
+  {
+    "id": "SA-12",
+    "phenomenon": "commissive act: a commitment made to a second-language reader",
+    "costar": {
+      "context": "You are a landlord. Your tenant reported yesterday that the kitchen tap is leaking. A plumber is booked for Thursday between 9 and 11 a.m.",
+      "objective": "Commit to the repair so that the tenant knows exactly what will happen.",
+      "style": "Plain, friendly text message.",
+      "tone": "Reassuring.",
+      "audience": "A tenant who is not a native speaker of English and prefers simple wording.",
+      "response": "One sentence."
+    },
+    "user_turn": "Any news about the tap?",
+    "image": null,
+    "format_rule": {
+      "sent_min": 1,
+      "sent_max": 1
+    },
+    "reference": "Yes, a plumber will come on Thursday between 9 and 11 in the morning to fix the tap.",
+    "appropriate": "Good news: the plumber is booked for Thursday morning, between 9 and 11, and he will repair the tap then.",
+    "foils": [
+      {
+        "target": "A",
+        "text": "Affirmative; pursuant to your notification, remedial plumbing works have been scheduled for Thursday ante meridiem within a two-hour attendance window."
+      },
+      {
+        "target": "R",
+        "text": "Yes, there is news. A plumber is booked. He will come on Thursday. He will arrive between 9 and 11 in the morning. He will fix the tap. Please be at home."
+      }
+    ],
+    "category": "speech_acts"
+  },
+  {
+    "id": "ID-01",
+    "phenomenon": "idiom: spill the beans (reveal a secret)",
+    "costar": {
+      "context": "You and your friend Kavya are organising a surprise farewell party for your teammate Tom. You know the plan: Friday at 6 p.m., at the rooftop cafe, and everyone brings a dish.",
+      "objective": "Give Kavya the information she is asking for.",
+      "style": "Casual chat between friends.",
+      "tone": "Playful and conspiratorial.",
+      "audience": "Kavya, a friend who is in on the secret.",
+      "response": "One or two sentences."
+    },
+    "user_turn": "Come on, spill the beans about Tom's party plan!",
+    "image": null,
+    "format_rule": {
+      "sent_min": 1,
+      "sent_max": 2
+    },
+    "reference": "Okay, okay! It's Friday at six at the rooftop cafe, and everyone's bringing a dish, but don't breathe a word to Tom.",
+    "appropriate": "Alright, here's the secret: we're meeting at the rooftop cafe on Friday at 6 p.m., potluck style. Keep it quiet so Tom doesn't find out!",
+    "foils": [
+      {
+        "target": "O",
+        "text": "I haven't got any beans to spill, and I would not want to make a mess at Tom's party."
+      },
+      {
+        "target": "S",
+        "text": "The event in question is scheduled for Friday at 18:00 hours at the rooftop cafe; all attendees are required to furnish one dish. Confidentiality with respect to Tom is to be maintained."
+      }
+    ],
+    "category": "figurative"
+  },
+  {
+    "id": "ID-02",
+    "phenomenon": "idiom: break a leg (good luck)",
+    "costar": {
+      "context": "A twelve-year-old is about to go on stage in her first school play. Her aunt has just sent her the message 'Break a leg!' and she is confused and a little hurt.",
+      "objective": "Explain what the aunt meant so that the child feels encouraged.",
+      "style": "Simple everyday language.",
+      "tone": "Kind and cheerful.",
+      "audience": "A nervous twelve-year-old.",
+      "response": "Two sentences."
+    },
+    "user_turn": "My aunt told me to break a leg before my play. Why would she say something so mean?",
+    "image": null,
+    "format_rule": {
+      "sent_min": 2,
+      "sent_max": 2
+    },
+    "reference": "Don't worry, she isn't being mean at all! 'Break a leg' is a funny old theatre way of saying 'good luck', so your aunt is cheering you on.",
+    "appropriate": "She's actually being really nice! In the theatre, people say 'break a leg' to wish each other luck, so it means she hopes your play goes brilliantly.",
+    "foils": [
+      {
+        "target": "O",
+        "text": "That does sound mean. Breaking a leg is painful and can take six to eight weeks to heal, so you should be careful on the stage."
+      },
+      {
+        "target": "A",
+        "text": "The utterance is a conventionalised idiom of opaque etymology, attested in theatrical registers, whose non-compositional meaning is benedictory. Your aunt's illocutionary intent was therefore supportive."
+      }
+    ],
+    "category": "figurative"
+  },
+  {
+    "id": "ID-03",
+    "phenomenon": "idiom: raining cats and dogs (raining heavily)",
+    "costar": {
+      "context": "A commuter normally cycles 8 km to the office. There is a direct bus that takes 25 minutes.",
+      "objective": "Advise the commuter.",
+      "style": "Practical everyday advice.",
+      "tone": "Friendly.",
+      "audience": "An adult commuter in a hurry.",
+      "response": "One sentence."
+    },
+    "user_turn": "It's raining cats and dogs. Should I still cycle to the office?",
+    "image": null,
+    "format_rule": {
+      "sent_min": 1,
+      "sent_max": 1
+    },
+    "reference": "I'd leave the bike at home today: in rain that heavy the roads are slippery and visibility is poor, so the 25-minute bus is the safer choice.",
+    "appropriate": "With a downpour like that, I'd skip cycling and take the direct bus instead; it's only 25 minutes and much safer on wet roads.",
+    "foils": [
+      {
+        "target": "O",
+        "text": "If cats and dogs are falling from the sky, you should call animal control before you cycle anywhere."
+      },
+      {
+        "target": "R",
+        "text": "I'd leave the bike at home today. The rain is heavy. The roads will be slippery. Visibility will be poor. There is a direct bus. It takes 25 minutes. That is the safer choice."
+      }
+    ],
+    "category": "figurative"
+  },
+  {
+    "id": "ID-04",
+    "phenomenon": "idiom: on the back burner (postponed, low priority)",
+    "costar": {
+      "context": "An employee submitted a proposal for a new onboarding programme a month ago. Her manager has just said that the proposal is 'on the back burner'.",
+      "objective": "Explain what the manager meant and suggest a sensible next step.",
+      "style": "Conversational workplace advice in plain words.",
+      "tone": "Supportive and realistic.",
+      "audience": "A junior employee who speaks English as a second language and is unsure what the phrase means.",
+      "response": "Two sentences."
+    },
+    "user_turn": "My boss said my proposal is on the back burner. What should I do?",
+    "image": null,
+    "format_rule": {
+      "sent_min": 2,
+      "sent_max": 2
+    },
+    "reference": "It means your proposal hasn't been rejected, but it isn't a priority right now. I'd ask your manager when would be a good time to revisit it and whether anything would make it easier to approve.",
+    "appropriate": "Your boss is saying that the idea is on hold for the moment, not that it has been turned down. A good next move is to ask when it might be looked at again and what would strengthen it.",
+    "foils": [
+      {
+        "target": "O",
+        "text": "You should move it off the back burner before it burns. Then check that the stove is switched off."
+      },
+      {
+        "target": "S",
+        "text": "Yo, your proposal's basically chillin' in the freezer rn, no biggie. Just ping the boss later and be like 'sooo, we doing this or what?'"
+      }
+    ],
+    "category": "figurative"
+  },
+  {
+    "id": "ID-05",
+    "phenomenon": "idiom: on the fence (undecided)",
+    "costar": {
+      "context": "A software engineer has received a job offer from another company: a 15% higher salary but a 90-minute commute each way, compared with a 20-minute commute now.",
+      "objective": "Help the person think the decision through.",
+      "style": "Thoughtful and conversational.",
+      "tone": "Neutral and encouraging.",
+      "audience": "An adult professional weighing a career move.",
+      "response": "Two sentences."
+    },
+    "user_turn": "I'm on the fence about accepting the offer. Any thoughts?",
+    "image": null,
+    "format_rule": {
+      "sent_min": 2,
+      "sent_max": 2,
+      "no_list": true
+    },
+    "reference": "It's a real trade-off: 15% more pay against more than two extra hours of commuting every day. It might help to ask yourself which you would miss more in a year's time, the money or the time.",
+    "appropriate": "That's an understandable dilemma, since the raise is attractive but the commute would cost you over two extra hours daily. Try picturing a typical week in each job and see which one you'd rather be living.",
+    "foils": [
+      {
+        "target": "O",
+        "text": "Sitting on a fence is not safe. Please climb down carefully before you think about the offer."
+      },
+      {
+        "target": "R",
+        "text": "- Salary: 15% higher\n- Commute: 90 minutes each way instead of 20\n- Extra travel: more than two hours a day\n- Question: would you miss the money or the time more?"
+      }
+    ],
+    "category": "figurative"
+  },
+  {
+    "id": "ID-06",
+    "phenomenon": "idiom: a piece of cake (very easy)",
+    "costar": {
+      "context": "A student has just finished her chemistry exam, which went very well. Her mother has texted to ask how it went.",
+      "objective": "Write the reply to her mother, conveying what the student means.",
+      "style": "Casual family text message.",
+      "tone": "Cheerful and relieved.",
+      "audience": "The student's mother.",
+      "response": "One or two short sentences."
+    },
+    "user_turn": "Tell Mum the exam was a piece of cake.",
+    "image": null,
+    "format_rule": {
+      "sent_min": 1,
+      "sent_max": 2
+    },
+    "reference": "Hi Mum, the exam was really easy! I think it went very well.",
+    "appropriate": "It went great, Mum, honestly much easier than I expected!",
+    "foils": [
+      {
+        "target": "O",
+        "text": "Hi Mum, in the exam they gave us a piece of cake! I think it was very tasty."
+      },
+      {
+        "target": "S",
+        "text": "Dear Mother, I am pleased to report that the chemistry examination presented minimal difficulty. I anticipate a favourable outcome."
+      }
+    ],
+    "category": "figurative"
+  },
+  {
+    "id": "ID-07",
+    "phenomenon": "idiom: beat around the bush (avoid the point)",
+    "costar": {
+      "context": "You are the project lead. The software release planned for 1 March is running two weeks late because integration testing found serious defects. The new target date is 15 March.",
+      "objective": "Answer the director's question.",
+      "style": "Direct business communication.",
+      "tone": "Candid and professional.",
+      "audience": "A director who wants a straight answer.",
+      "response": "One or two sentences."
+    },
+    "user_turn": "Let's not beat around the bush: is the project late?",
+    "image": null,
+    "format_rule": {
+      "sent_min": 1,
+      "sent_max": 2,
+      "no_list": true
+    },
+    "reference": "Yes. We are two weeks behind because integration testing found serious defects, and the new release date is 15 March.",
+    "appropriate": "Yes, it's late by two weeks. Serious defects turned up in integration testing, so we are now targeting 15 March.",
+    "foils": [
+      {
+        "target": "O",
+        "text": "That is an interesting question, and there are many ways of looking at timelines. Projects are complex, testing is ongoing, and the team is working very hard on a number of fronts."
+      },
+      {
+        "target": "R",
+        "text": "Yes.\n\nStatus report\n1. Original date: 1 March.\n2. Delay: two weeks.\n3. Cause: serious defects found in integration testing.\n4. New date: 15 March.\n5. Risks: to be confirmed.\n6. Next update: weekly."
+      }
+    ],
+    "category": "figurative"
+  },
+  {
+    "id": "ID-08",
+    "phenomenon": "idiom: kick the bucket (die), in a sympathy context",
+    "costar": {
+      "context": "An elderly neighbour, Mrs D'Souza, had a dog called Bruno for fifteen years. Bruno has just died. The speaker wants to write a short sympathy card.",
+      "objective": "Write the message for the card.",
+      "style": "Simple and heartfelt.",
+      "tone": "Gentle and sympathetic.",
+      "audience": "An elderly neighbour grieving for her pet.",
+      "response": "Two sentences."
+    },
+    "user_turn": "Old Bruno finally kicked the bucket last night. What should I write in a card for Mrs D'Souza?",
+    "image": null,
+    "format_rule": {
+      "sent_min": 2,
+      "sent_max": 2
+    },
+    "reference": "Dear Mrs D'Souza, I was so sorry to hear that Bruno has passed away. He was a wonderful companion for fifteen years, and I am thinking of you.",
+    "appropriate": "Dear Mrs D'Souza, I'm very sad to learn of Bruno's passing. Fifteen years is a long friendship, and you are in my thoughts.",
+    "foils": [
+      {
+        "target": "O",
+        "text": "Dear Mrs D'Souza, I heard that Bruno kicked a bucket over last night. I hope nothing was spilled and that he is behaving better today."
+      },
+      {
+        "target": "S",
+        "text": "Dear Mrs D'Souza, heard Bruno kicked the bucket, bummer! Fifteen years is a solid innings for a dog tho, so chin up."
+      }
+    ],
+    "category": "figurative"
+  },
+  {
+    "id": "ID-09",
+    "phenomenon": "idiom: bite the bullet (do something unpleasant that has been put off)",
+    "costar": {
+      "context": "A tenant has decided to move out of her flat and must give the landlord, Mr Rao, one month's notice. She has been putting off telling him.",
+      "objective": "Draft what she should write to the landlord.",
+      "style": "Polite, plain written English.",
+      "tone": "Courteous and matter-of-fact.",
+      "audience": "Her landlord, with whom she has a cordial relationship.",
+      "response": "Exactly two sentences."
+    },
+    "user_turn": "I've decided to bite the bullet and tell my landlord I'm moving out. Draft it for me.",
+    "image": null,
+    "format_rule": {
+      "sent_min": 2,
+      "sent_max": 2
+    },
+    "reference": "Dear Mr Rao, I am writing to give you one month's notice that I will be moving out of the flat. Thank you for being such a considerate landlord; please let me know how you would like to arrange the handover.",
+    "appropriate": "Dear Mr Rao, please take this message as my one month's notice to leave the flat. I have appreciated living here, and I'm happy to arrange the handover in whatever way suits you.",
+    "foils": [
+      {
+        "target": "S",
+        "text": "Hey Mr Rao, heads up, I'm outta the flat in a month. Been real, cheers for everything, gimme a shout about the keys."
+      },
+      {
+        "target": "R",
+        "text": "Dear Mr Rao, I am writing to give you notice. I will be moving out of the flat. The notice period is one month. Thank you for being such a considerate landlord. Please let me know how you would like to arrange the handover."
+      }
+    ],
+    "category": "figurative"
+  },
+  {
+    "id": "ID-10",
+    "phenomenon": "idiom: the ball is in your court (it is your turn to act)",
+    "costar": {
+      "context": "Two companies are negotiating a partnership. After a meeting, the other side's lead, Ms Chen, emailed: 'We have sent our revised terms. The ball is in your court.'",
+      "objective": "Explain what Ms Chen expects.",
+      "style": "Clear and businesslike, in plain words.",
+      "tone": "Helpful.",
+      "audience": "A new intern with no negotiation experience.",
+      "response": "One sentence."
+    },
+    "user_turn": "Ms Chen says the ball is in our court. What does she expect from us?",
+    "image": null,
+    "format_rule": {
+      "sent_min": 1,
+      "sent_max": 1
+    },
+    "reference": "She means it is now our turn to act: she is waiting for us to respond to the revised terms she sent.",
+    "appropriate": "It's her way of saying that the next move is ours, so she expects our reply to her revised terms.",
+    "foils": [
+      {
+        "target": "A",
+        "text": "She is signalling turn allocation in the bargaining sequence, i.e. that the counter-offer obligation has reverted to our principal pending acceptance or redlining of the revised term sheet."
+      },
+      {
+        "target": "R",
+        "text": "She means it is now our turn to act. She has sent revised terms. She is waiting. We should read them. We should discuss them internally. Then we should reply to her."
+      }
+    ],
+    "category": "figurative"
+  },
+  {
+    "id": "ID-11",
+    "phenomenon": "idiom: cost an arm and a leg (be very expensive)",
+    "costar": {
+      "context": "A college student has a budget of 20,000 rupees for a new smartphone. The flagship model she likes costs 95,000 rupees. Several mid-range phones with good cameras cost between 15,000 and 20,000 rupees.",
+      "objective": "Respond helpfully to the student's request.",
+      "style": "Friendly and conversational, in non-technical words.",
+      "tone": "Understanding and upbeat.",
+      "audience": "A student on a tight budget who is not a technology enthusiast.",
+      "response": "Two sentences."
+    },
+    "user_turn": "The new flagship phone costs an arm and a leg. Any cheaper alternatives?",
+    "image": null,
+    "format_rule": {
+      "sent_min": 2,
+      "sent_max": 2
+    },
+    "reference": "It really is very expensive! With a budget of 20,000 rupees you can get a good mid-range phone with a strong camera, so it's worth comparing a few models in the 15,000 to 20,000 rupee range.",
+    "appropriate": "Yes, that price is steep. There are solid mid-range phones with good cameras for 15,000 to 20,000 rupees, which fits your budget nicely.",
+    "foils": [
+      {
+        "target": "S",
+        "text": "The device in question is indeed priced prohibitively. It is hereby recommended that the purchaser evaluate mid-range handsets retailing between 15,000 and 20,000 rupees, which offer satisfactory imaging capability."
+      },
+      {
+        "target": "A",
+        "text": "It is pricey! Look for a handset with a 4 nm SoC, an OIS-stabilised 1/1.56-inch sensor, UFS 3.1 storage and an LTPO AMOLED panel, benchmarked above 700k on AnTuTu, in the 15,000 to 20,000 rupee range."
+      }
+    ],
+    "category": "figurative"
+  },
+  {
+    "id": "ID-12",
+    "phenomenon": "idiom: under the weather (slightly unwell)",
+    "costar": {
+      "context": "An employee has a heavy cold and will not join today's 10 a.m. stand-up meeting. She can still answer messages and will send her update in writing.",
+      "objective": "Write her message to the team lead.",
+      "style": "Brief workplace chat message.",
+      "tone": "Polite and unfussy.",
+      "audience": "Her team lead, Sameer, who only needs to know the essentials.",
+      "response": "Two sentences."
+    },
+    "user_turn": "I'm feeling under the weather. Write a message to Sameer that I can't join today's stand-up.",
+    "image": null,
+    "format_rule": {
+      "sent_min": 2,
+      "sent_max": 2
+    },
+    "reference": "Hi Sameer, I'm not feeling well today, so I won't be able to join the 10 a.m. stand-up. I'll send my update in writing and I'm reachable by message if you need me.",
+    "appropriate": "Hi Sameer, I've come down with a cold and will have to skip this morning's stand-up. My written update will follow shortly, and I'm available on chat.",
+    "foils": [
+      {
+        "target": "A",
+        "text": "Hi Sameer, I'm not feeling well today: it began with a sore throat on Sunday, then my nose blocked up overnight, I measured 37.9 degrees at six this morning, and I have used most of a box of tissues. I won't be able to join the 10 a.m. stand-up."
+      },
+      {
+        "target": "R",
+        "text": "Hi Sameer,\n\nI am not feeling well today.\n\nI will not join the 10 a.m. stand-up.\n\nI will send my update in writing.\n\nI am reachable by message.\n\nPlease tell the team.\n\nThank you."
+      }
+    ],
+    "category": "figurative"
+  },
+  {
+    "id": "RC-01",
+    "phenomenon": "formal register: reporting bad news upward",
+    "costar": {
+      "context": "You are the chief financial officer of a mid-sized company. Third-quarter revenue was 42 crore rupees against a forecast of 50 crore rupees, mainly because two large orders slipped into the fourth quarter.",
+      "objective": "Explain the shortfall to the board.",
+      "style": "Formal written business English.",
+      "tone": "Measured, factual and accountable.",
+      "audience": "The board of directors.",
+      "response": "Three sentences."
+    },
+    "user_turn": "Write the opening paragraph of my email to the board about the third-quarter numbers.",
+    "image": null,
+    "format_rule": {
+      "sent_min": 3,
+      "sent_max": 3
+    },
+    "reference": "Dear Members of the Board, I am writing to report that third-quarter revenue was 42 crore rupees against our forecast of 50 crore rupees. The shortfall is mainly attributable to two large orders that slipped into the fourth quarter. I set out below the steps we are taking to secure those orders and to improve the reliability of our forecasts.",
+    "appropriate": "Dear Board Members, third-quarter revenue came in at 42 crore rupees, 8 crore below the 50 crore we had forecast. The principal cause was the deferral of two large orders into the fourth quarter. The remainder of this note explains how we intend to close those orders and strengthen our forecasting.",
+    "foils": [
+      {
+        "target": "S",
+        "text": "Hey everyone, so Q3 was a bit of a bummer: we pulled in 42 crore rupees when we'd guessed 50 crore. Basically two big orders slid into Q4, no biggie. Here's what we're gonna do to nail them down."
+      },
+      {
+        "target": "C",
+        "text": "Dear Members of the Board, I am writing to report that third-quarter revenue was 58 crore rupees against our forecast of 50 crore rupees. The surplus is mainly attributable to two large orders that arrived earlier than expected. I set out below the steps we are taking to build on this result."
+      }
+    ],
+    "category": "register_culture"
+  },
+  {
+    "id": "RC-02",
+    "phenomenon": "audience design: explaining a technical concept to a child",
+    "costar": {
+      "context": "A ten-year-old has heard the phrase 'neural network' on a science programme and asks her uncle, a software engineer, what it is.",
+      "objective": "Explain what a neural network is.",
+      "style": "Simple and concrete, with an everyday comparison.",
+      "tone": "Friendly and encouraging.",
+      "audience": "A curious ten-year-old.",
+      "response": "Two or three sentences."
+    },
+    "user_turn": "Uncle, what is a neural network?",
+    "image": null,
+    "format_rule": {
+      "sent_min": 2,
+      "sent_max": 3
+    },
+    "reference": "It's a computer program that learns from examples, a bit like you learning to recognise cats by seeing lots of cats. Each time it guesses wrong, it changes itself a tiny bit, so next time it guesses better.",
+    "appropriate": "Imagine teaching a computer the way you learned to tell dogs from cats: by looking at many pictures. A neural network is a program that practises on lots of examples and fixes its mistakes little by little until it gets good at the job.",
+    "foils": [
+      {
+        "target": "A",
+        "text": "It is a parameterised function approximator composed of stacked affine transformations and non-linear activations. Its weights are optimised by stochastic gradient descent on a differentiable loss via backpropagation."
+      },
+      {
+        "target": "S",
+        "text": "A neural network may be defined as a computational system that acquires capabilities through exposure to exemplars. Upon the commission of an error, the system effects an incremental self-adjustment, thereby enhancing subsequent performance."
+      }
+    ],
+    "category": "register_culture"
+  },
+  {
+    "id": "RC-03",
+    "phenomenon": "casual register between intimates",
+    "costar": {
+      "context": "You had planned dinner tonight with your close friend Sana. You have to cancel because an urgent deadline came up at work. You are free on Thursday.",
+      "objective": "Cancel and reschedule.",
+      "style": "Casual text message.",
+      "tone": "Warm and apologetic.",
+      "audience": "Sana, a close friend.",
+      "response": "Two or three short sentences."
+    },
+    "user_turn": "Text Sana that I can't make dinner tonight.",
+    "image": null,
+    "format_rule": {
+      "sent_min": 2,
+      "sent_max": 3
+    },
+    "reference": "Sana, I'm so sorry, I have to cancel tonight because a work deadline just landed on me. Can we do Thursday instead? My treat!",
+    "appropriate": "So sorry, Sana, work has thrown an urgent deadline at me and I can't get away tonight. Are you free on Thursday? Dinner's on me.",
+    "foils": [
+      {
+        "target": "S",
+        "text": "Dear Sana, I regret to inform you that, owing to an unforeseen professional obligation, I must cancel this evening's dinner engagement. Kindly advise whether Thursday would be an acceptable alternative."
+      },
+      {
+        "target": "T",
+        "text": "Sana, I'm cancelling tonight because I have a work deadline, which matters more. Thursday is the only day I can do, so take it or leave it."
+      }
+    ],
+    "category": "register_culture"
+  },
+  {
+    "id": "RC-04",
+    "phenomenon": "cross-cultural business request: indirectness and deference",
+    "costar": {
+      "context": "You are a sales manager at an Indian software firm. You met Mr Tanaka, a senior director at a Tokyo manufacturing company, briefly at a trade fair last month. You would like a 30-minute video call to introduce your firm's product. Business correspondence with senior Japanese executives conventionally favours formality, indirect requests and expressions of gratitude.",
+      "objective": "Request the meeting.",
+      "style": "Formal and indirect business English, using the address form 'Mr Tanaka'.",
+      "tone": "Deferential and appreciative.",
+      "audience": "A senior Japanese executive whom you barely know.",
+      "response": "Three sentences."
+    },
+    "user_turn": "Write the body of the email to Mr Tanaka.",
+    "image": null,
+    "format_rule": {
+      "sent_min": 3,
+      "sent_max": 3
+    },
+    "reference": "Dear Mr Tanaka, it was an honour to meet you at the trade fair last month, and I am grateful for the time you kindly gave us. If it would not be an inconvenience, we would very much appreciate the opportunity to introduce our product to you in a 30-minute video call at a time that suits you. Thank you very much for your kind consideration.",
+    "appropriate": "Dear Mr Tanaka, thank you most sincerely for speaking with us at last month's trade fair; it was a privilege to make your acquaintance. Should your schedule permit, we would be honoured to present our product to you briefly by video call, for about 30 minutes, whenever is convenient for you. We are grateful for your consideration.",
+    "foils": [
+      {
+        "target": "S",
+        "text": "Hey Tanaka, great bumping into you at the trade fair last month! Wanna jump on a quick 30-min video call so we can show off our product? Lemme know what works."
+      },
+      {
+        "target": "T",
+        "text": "Dear Mr Tanaka, we met at the trade fair last month. I need a 30-minute video call with you this week to present our product, so send me your available times by tomorrow. I expect your prompt reply."
+      }
+    ],
+    "category": "register_culture"
+  },
+  {
+    "id": "RC-05",
+    "phenomenon": "direct, informal register for a low-context start-up setting",
+    "costar": {
+      "context": "You are a freelance developer. You met Alex, the founder of a small San Francisco start-up, at a meetup yesterday; Alex said, 'Ping me, we need help with our mobile app.' The start-up's culture is informal and fast-moving.",
+      "objective": "Follow up and propose a call.",
+      "style": "Brief, direct and informal.",
+      "tone": "Friendly and confident.",
+      "audience": "A busy start-up founder who prefers short messages.",
+      "response": "Two sentences."
+    },
+    "user_turn": "Write my follow-up message to Alex.",
+    "image": null,
+    "format_rule": {
+      "sent_min": 2,
+      "sent_max": 2
+    },
+    "reference": "Hi Alex, great meeting you yesterday! I'd love to help with the mobile app; do you have 20 minutes for a call this week?",
+    "appropriate": "Hey Alex, good to meet you at the meetup. Happy to jump in on the mobile app, so are you free for a quick 20-minute call in the next few days?",
+    "foils": [
+      {
+        "target": "S",
+        "text": "Dear Sir, I respectfully write further to our esteemed acquaintance of yesterday. I would be deeply honoured if you would graciously condescend to grant me an audience of twenty minutes regarding your mobile application."
+      },
+      {
+        "target": "A",
+        "text": "Hi Alex, great meeting you yesterday! I have nine years of experience across Swift, Kotlin, React Native and Flutter, have shipped fourteen apps in fintech, health and logistics, hold three certifications, and can describe my testing philosophy, deployment preferences and rates in detail, so do you have 20 minutes for a call this week?"
+      }
+    ],
+    "category": "register_culture"
+  },
+  {
+    "id": "RC-06",
+    "phenomenon": "variety-specific vocabulary: Indian English 'prepone' and 'do the needful'",
+    "costar": {
+      "context": "You work in the Bengaluru office of a multinational company. Your manager, Mrs Iyer, has sent this message: 'Kindly prepone the design review from Wednesday to Monday and do the needful.' In Indian English, 'prepone' means to move an event to an earlier time, and 'do the needful' means to take whatever action is required.",
+      "objective": "Confirm to Mrs Iyer that you have understood and acted.",
+      "style": "Polite professional chat message.",
+      "tone": "Respectful and cooperative.",
+      "audience": "Mrs Iyer, your manager.",
+      "response": "Two sentences."
+    },
+    "user_turn": "Reply to Mrs Iyer.",
+    "image": null,
+    "format_rule": {
+      "sent_min": 2,
+      "sent_max": 2
+    },
+    "reference": "Certainly, Mrs Iyer. I have moved the design review forward to Monday and sent updated invitations to everyone.",
+    "appropriate": "Sure, Mrs Iyer, the design review is now on Monday instead of Wednesday. I've rescheduled it and informed all the attendees.",
+    "foils": [
+      {
+        "target": "C",
+        "text": "Certainly, Mrs Iyer. I have pushed the design review back from Wednesday to Friday and sent updated invitations to everyone."
+      },
+      {
+        "target": "T",
+        "text": "Mrs Iyer, 'prepone' is not a real English word and 'do the needful' is very old-fashioned. I have moved the design review to Monday anyway."
+      }
+    ],
+    "category": "register_culture"
+  },
+  {
+    "id": "RC-07",
+    "phenomenon": "honorific address and deference to an elder",
+    "costar": {
+      "context": "A young couple in Chennai are holding a housewarming ceremony on Sunday 14 December at 10 a.m. They want to invite Mrs Lakshmi, an elderly family friend whom they address respectfully as 'Lakshmi Aunty'. In this setting, elders are customarily invited with explicit respect and a request for their blessings.",
+      "objective": "Invite her to the ceremony.",
+      "style": "Respectful and personal; a WhatsApp message.",
+      "tone": "Affectionate and deferential.",
+      "audience": "An elderly, respected family friend.",
+      "response": "Two or three sentences."
+    },
+    "user_turn": "Write the invitation message for Lakshmi Aunty.",
+    "image": null,
+    "format_rule": {
+      "sent_min": 2,
+      "sent_max": 3
+    },
+    "reference": "Namaste Lakshmi Aunty, we hope you are keeping well. With great happiness we invite you to our housewarming ceremony on Sunday 14 December at ten in the morning. It would mean a great deal to us to have you there and to receive your blessings.",
+    "appropriate": "Dear Lakshmi Aunty, warm greetings from both of us. We would be honoured if you could join us for our housewarming on Sunday 14 December at 10 in the morning. Your presence and blessings would make the day truly special.",
+    "foils": [
+      {
+        "target": "S",
+        "text": "Yo Lakshmi! Housewarming bash at ours, Sunday 14 Dec, 10 a.m. Swing by, it's gonna be lit!"
+      },
+      {
+        "target": "T",
+        "text": "Lakshmi Aunty, our housewarming ceremony is on Sunday 14 December at 10 in the morning. You are expected to attend, so do not be late and do not make other plans."
+      }
+    ],
+    "category": "register_culture"
+  },
+  {
+    "id": "RC-08",
+    "phenomenon": "expert-to-layperson communication in a health setting",
+    "costar": {
+      "context": "A family doctor has just measured a 45-year-old patient's blood pressure at 142 over 92, which is mildly raised. It is the first high reading; the usual first step is lifestyle changes and a re-check in a month. The patient looks worried.",
+      "objective": "Explain the result to the patient.",
+      "style": "Plain language without medical jargon.",
+      "tone": "Calm and reassuring, but honest.",
+      "audience": "A worried adult patient with no medical training.",
+      "response": "Two or three sentences."
+    },
+    "user_turn": "Doctor, is something wrong with my blood pressure?",
+    "image": null,
+    "format_rule": {
+      "sent_min": 2,
+      "sent_max": 3
+    },
+    "reference": "Your blood pressure is a little higher than we would like, but this is a mild rise and it is the first time we have seen it. The usual first step is some simple changes, such as less salt and a bit more walking, and then we will check it again in a month. There is no need to be alarmed.",
+    "appropriate": "The reading today is slightly above the normal range; it's only mildly raised and this is the first time. Usually we start with small lifestyle adjustments, like cutting down on salt and being more active, and re-measure in about a month, so please don't worry.",
+    "foils": [
+      {
+        "target": "A",
+        "text": "You present with grade 1 hypertension, systolic 142 and diastolic 92 mmHg. First-line management is non-pharmacological: sodium restriction and aerobic conditioning, with reassessment at four weeks before considering an ACE inhibitor or a calcium-channel blocker."
+      },
+      {
+        "target": "T",
+        "text": "Your blood pressure is higher than it should be. People who ignore readings like this end up with strokes and heart attacks. Change your habits and come back in a month."
+      }
+    ],
+    "category": "register_culture"
+  },
+  {
+    "id": "RC-09",
+    "phenomenon": "service recovery: responding to an angry customer",
+    "costar": {
+      "context": "You are a customer-support agent for an online electronics shop. A customer ordered headphones twelve days ago; they have not arrived, although delivery was promised within five days. You can dispatch a replacement by express courier today and refund the shipping fee.",
+      "objective": "Reply to the customer's message.",
+      "style": "Professional customer-service English.",
+      "tone": "Apologetic, calm and solution-focused.",
+      "audience": "An angry customer.",
+      "response": "Three sentences."
+    },
+    "user_turn": "This is ridiculous. Twelve days and still no headphones. Worst service ever.",
+    "image": null,
+    "format_rule": {
+      "sent_min": 3,
+      "sent_max": 3
+    },
+    "reference": "I am very sorry that your headphones have not arrived; twelve days is far longer than the five we promised. I am sending a replacement by express courier today and refunding your shipping fee. You will receive the tracking number by email within the hour.",
+    "appropriate": "Please accept my sincere apologies: you were promised delivery in five days and have waited twelve, which is unacceptable. A replacement pair will go out by express courier today, and I have refunded the shipping charge. The tracking details will reach your inbox within an hour.",
+    "foils": [
+      {
+        "target": "T",
+        "text": "There is no need to be rude; delays are caused by the courier, not by us. I am sending a replacement by express courier today and refunding your shipping fee. Next time, please check the tracking page before complaining."
+      },
+      {
+        "target": "S",
+        "text": "Oof, twelve days, that's a total fail on our end, my bad! Shooting you a fresh pair by express today and chucking the shipping fee back your way. Tracking number's gonna pop into your inbox in a jiffy."
+      }
+    ],
+    "category": "register_culture"
+  },
+  {
+    "id": "RC-10",
+    "phenomenon": "recontextualisation: research finding for a public audience",
+    "costar": {
+      "context": "A research team found that secondary-school students who slept at least eight hours a night scored on average 12% higher in end-of-year exams than those who slept under six hours. The study followed 2,400 students for one year.",
+      "objective": "Communicate the finding to the general public.",
+      "style": "Plain, engaging and non-technical.",
+      "tone": "Informative, not sensational.",
+      "audience": "Members of the public reading a university's social-media feed.",
+      "response": "A single post of no more than 280 characters."
+    },
+    "user_turn": "Turn this finding into a post for the university's social-media account.",
+    "image": null,
+    "format_rule": {
+      "max_chars": 280
+    },
+    "reference": "New study: secondary-school students who slept at least 8 hours a night scored 12% higher in end-of-year exams than those sleeping under 6. Researchers followed 2,400 students for a year. A good night's sleep may be part of good revision.",
+    "appropriate": "Sleep and exam results go together: in a year-long study of 2,400 secondary-school students, those getting 8 or more hours a night scored on average 12% higher than those getting fewer than 6.",
+    "foils": [
+      {
+        "target": "A",
+        "text": "Longitudinal cohort (n = 2,400; 12 mo): nocturnal sleep duration of 8 h or more vs under 6 h was associated with a 12% higher mean summative assessment score among secondary-level participants."
+      },
+      {
+        "target": "R",
+        "text": "New study from our researchers.\n\nSecondary-school students who slept at least 8 hours a night scored 12% higher in end-of-year exams than those who slept under 6 hours.\n\nThe team followed 2,400 students for one full year.\n\nWhat does this mean? A good night's sleep may be an important part of good revision, alongside regular study, healthy meals and exercise.\n\nRead more on our website, and tell us in the comments how many hours you sleep before an exam."
+      }
+    ],
+    "category": "register_culture"
+  },
+  {
+    "id": "RC-11",
+    "phenomenon": "face-threatening act: corrective feedback to a junior colleague",
+    "costar": {
+      "context": "You manage a small team. Rohan, a junior analyst six months into his first job, submitted a report with several calculation errors, although its structure and writing were good. You want him to double-check his figures in future.",
+      "objective": "Give Rohan feedback on the report.",
+      "style": "Conversational and professional, spoken one-to-one.",
+      "tone": "Constructive and encouraging.",
+      "audience": "A junior colleague early in his career.",
+      "response": "Three sentences."
+    },
+    "user_turn": "What should I say to Rohan?",
+    "image": null,
+    "format_rule": {
+      "sent_min": 3,
+      "sent_max": 3
+    },
+    "reference": "Rohan, the structure and writing of your report were really good. I did find a few calculation errors, so in future please build in time to double-check the figures before you submit. If it helps, I can show you the checklist I use.",
+    "appropriate": "Rohan, I liked how clearly your report was organised and written. There were some mistakes in the calculations, though, so I'd like you to verify the numbers before sending the next one. I'm happy to walk you through how I check mine.",
+    "foils": [
+      {
+        "target": "T",
+        "text": "Rohan, your report had calculation errors, which is careless and frankly embarrassing. Double-check the figures before you submit anything again. I should not have to tell you this."
+      },
+      {
+        "target": "S",
+        "text": "Rohan, pursuant to a review of the submitted deliverable, discrepancies of a computational nature have been identified. The employee is hereby directed to institute verification procedures prior to future submissions. Structural and compositional elements were deemed satisfactory."
+      }
+    ],
+    "category": "register_culture"
+  },
+  {
+    "id": "RC-12",
+    "phenomenon": "expressive act with status asymmetry: thanking an interview panel",
+    "costar": {
+      "context": "You were interviewed yesterday for a lecturer post by a panel chaired by Dr Mehta. You enjoyed the discussion about the department's new curriculum and remain very interested in the post.",
+      "objective": "Thank the panel chair.",
+      "style": "Formal but warm email.",
+      "tone": "Grateful and modest.",
+      "audience": "Dr Mehta, a senior academic who chaired the panel.",
+      "response": "Exactly three sentences."
+    },
+    "user_turn": "Write a thank-you email to Dr Mehta.",
+    "image": null,
+    "format_rule": {
+      "sent_min": 3,
+      "sent_max": 3,
+      "no_list": true
+    },
+    "reference": "Dear Dr Mehta, thank you very much for the opportunity to interview for the lecturer post yesterday. I particularly enjoyed our discussion of the department's new curriculum. I remain very interested in the position and would be glad to provide any further information.",
+    "appropriate": "Dear Dr Mehta, I am grateful to you and the panel for interviewing me yesterday for the lecturer position. The conversation about the new curriculum was especially stimulating. My interest in the post is as strong as ever, and I would be happy to supply anything else you may need.",
+    "foils": [
+      {
+        "target": "T",
+        "text": "Dear Dr Mehta, thank you for interviewing me yesterday. I was clearly the strongest candidate, so I look forward to receiving your offer shortly. Let me know the start date."
+      },
+      {
+        "target": "R",
+        "text": "Dear Dr Mehta,\n- Thank you for the interview.\n- I enjoyed the curriculum discussion.\n- I remain interested.\n- I can provide further information.\n- I look forward to hearing from you.\n- With thanks again."
+      }
+    ],
+    "category": "register_culture"
+  },
+  {
+    "id": "MM-01",
+    "phenomenon": "chart-grounded answer to an underspecified question ('the last quarter')",
+    "costar": {
+      "context": "The attached chart shows the company's quarterly sales for the year. A board member has opened it during a meeting.",
+      "objective": "Answer the board member's question from the chart.",
+      "style": "Concise business English.",
+      "tone": "Factual and neutral.",
+      "audience": "A board member who wants the headline, not the detail.",
+      "response": "One sentence."
+    },
+    "user_turn": "How did we do in the last quarter?",
+    "image": "images/MM-01.png",
+    "format_rule": {
+      "sent_min": 1,
+      "sent_max": 1
+    },
+    "reference": "Fourth-quarter sales fell to 95 lakh rupees, down sharply from 150 lakh in the third quarter and the lowest of the year.",
+    "appropriate": "Q4 was our weakest quarter: sales dropped to 95 lakh rupees after reaching 150 lakh in Q3.",
+    "foils": [
+      {
+        "target": "C",
+        "text": "Fourth-quarter sales rose to 150 lakh rupees, up sharply from 95 lakh in the third quarter and the highest of the year."
+      },
+      {
+        "target": "A",
+        "text": "In Q1 sales were 120 lakh rupees, in Q2 they were 135 lakh (a rise of 12.5%), in Q3 they were 150 lakh (a rise of 11.1%), and in Q4 they were 95 lakh (a fall of 36.7%), giving an annual total of 500 lakh and a quarterly mean of 125 lakh."
+      }
+    ],
+    "category": "multimodal",
+    "image_sha256": "23d975223b935693907bff67d94fd22d93ec78d8fabc04b8dc1b4866239079e9"
+  },
+  {
+    "id": "MM-02",
+    "phenomenon": "spatial deixis resolved against a chart ('the one in the top right')",
+    "costar": {
+      "context": "The attached scatter plot shows advertising spend and monthly sales for six stores, labelled A to F. A regional manager is looking at it with you.",
+      "objective": "Answer the manager's question about the chart.",
+      "style": "Conversational business English.",
+      "tone": "Helpful and precise.",
+      "audience": "A regional manager who can see the chart.",
+      "response": "One or two sentences."
+    },
+    "user_turn": "What's going on with the one in the top right?",
+    "image": "images/MM-02.png",
+    "format_rule": {
+      "sent_min": 1,
+      "sent_max": 2,
+      "no_list": true
+    },
+    "reference": "That's Store F: it spends far more on advertising than the others and also has by far the highest sales, so it sits well apart from the other five stores clustered in the lower left.",
+    "appropriate": "The point in the top right is Store F, which stands out from the cluster of five because both its advertising spend and its sales are much higher than anyone else's.",
+    "foils": [
+      {
+        "target": "C",
+        "text": "That's Store A: it spends far less on advertising than the others and also has by far the lowest sales, so it sits well apart from the other five stores clustered in the upper right."
+      },
+      {
+        "target": "R",
+        "text": "That's Store F.\n1. It spends more on advertising.\n2. It has the highest sales.\n3. It sits apart from the others.\n4. The other five stores are clustered.\n5. They are in the lower left.\n6. Store F is in the top right."
+      }
+    ],
+    "category": "multimodal",
+    "image_sha256": "009df10bc3c5a735db5aedd752a1d842a453c3502979ae0bc9cbeaff0be1ff27"
+  },
+  {
+    "id": "MM-03",
+    "phenomenon": "request for advice whose answer depends on a sign in the image",
+    "costar": {
+      "context": "The user has sent a picture of the corridor in front of them and is in a hurry to catch a bus.",
+      "objective": "Give the user the advice they are asking for.",
+      "style": "Brief and conversational.",
+      "tone": "Friendly but clear about safety.",
+      "audience": "An adult in a hurry.",
+      "response": "One sentence."
+    },
+    "user_turn": "Can I run through here to catch my bus?",
+    "image": "images/MM-03.png",
+    "format_rule": {
+      "sent_min": 1,
+      "sent_max": 1
+    },
+    "reference": "I wouldn't run: the sign says the floor is wet, so walk through carefully or you could slip.",
+    "appropriate": "Better not to run, because there's a wet-floor warning sign; walk quickly but carefully instead.",
+    "foils": [
+      {
+        "target": "C",
+        "text": "Yes, go ahead and run: the corridor is dry and there are no warning signs."
+      },
+      {
+        "target": "O",
+        "text": "The picture shows a corridor with a yellow sign that says 'CAUTION WET FLOOR'."
+      }
+    ],
+    "category": "multimodal",
+    "image_sha256": "b5216f6b4c44079a89173d332fd9288fdc521d41f102744619746ffe48569b7d"
+  },
+  {
+    "id": "MM-04",
+    "phenomenon": "indirect question whose answer depends on a notice in the image",
+    "costar": {
+      "context": "The user has sent a picture of the door of the room they are standing outside.",
+      "objective": "Answer the user's question helpfully.",
+      "style": "Brief and conversational.",
+      "tone": "Polite.",
+      "audience": "A visitor to a college building.",
+      "response": "One sentence."
+    },
+    "user_turn": "Is this a good place to take a phone call?",
+    "image": "images/MM-04.png",
+    "format_rule": {
+      "sent_min": 1,
+      "sent_max": 1
+    },
+    "reference": "No, the sign says an exam is in progress and asks for quiet, so it would be better to take your call somewhere else.",
+    "appropriate": "Not really: there's an exam going on and the notice asks for silence, so please find another spot for the call.",
+    "foils": [
+      {
+        "target": "C",
+        "text": "Yes, the sign says the room is free and that phone calls are welcome here."
+      },
+      {
+        "target": "O",
+        "text": "The sign in the picture reads 'QUIET PLEASE' and 'EXAM IN PROGRESS'."
+      }
+    ],
+    "category": "multimodal",
+    "image_sha256": "35cb6fc7948cc6135f5d0ceb2496740b840649551ebe6cf43c5139b2c5c52f7f"
+  },
+  {
+    "id": "MM-05",
+    "phenomenon": "inference from a departures board (time reasoning behind a yes/no question)",
+    "costar": {
+      "context": "The user is at a railway station and has sent a picture of the departures board. The time now is 2:00 p.m.",
+      "objective": "Answer the user's question from the board.",
+      "style": "Brief and practical.",
+      "tone": "Friendly.",
+      "audience": "A traveller.",
+      "response": "One sentence."
+    },
+    "user_turn": "Do I have time to grab a coffee before the Delhi train?",
+    "image": "images/MM-05.png",
+    "format_rule": {
+      "sent_min": 1,
+      "sent_max": 1,
+      "no_list": true
+    },
+    "reference": "Yes, you do: the New Delhi train is delayed by 40 minutes, so it should leave at around 2:45 p.m. from platform 2.",
+    "appropriate": "You have time, since the board shows the New Delhi service running 40 minutes late, which means a departure at about 2:45 from platform 2.",
+    "foils": [
+      {
+        "target": "C",
+        "text": "No, hurry: the New Delhi train is on time and leaves in five minutes from platform 3."
+      },
+      {
+        "target": "R",
+        "text": "Yes.\n\nDetails:\n- Train: New Delhi\n- Scheduled: 14:05\n- Status: delayed 40 minutes\n- Expected: about 14:45\n- Platform: 2\n- Coffee: possible"
+      }
+    ],
+    "category": "multimodal",
+    "image_sha256": "96be55ae68ab991cd078716289ce6c9e8a5caef35347b306a75341a121ad66e7"
+  },
+  {
+    "id": "MM-06",
+    "phenomenon": "request for permission answered from a schedule, for a newcomer",
+    "costar": {
+      "context": "The picture shows Tuesday's booking schedule for Meeting Room A. A new colleague, on her first day, wants to hold a one-hour team meeting on Tuesday.",
+      "objective": "Answer her question and help her find a slot.",
+      "style": "Friendly workplace English in plain words.",
+      "tone": "Helpful.",
+      "audience": "A new colleague who does not yet know the office's abbreviations or booking system.",
+      "response": "One or two sentences."
+    },
+    "user_turn": "Can we use this room at eleven?",
+    "image": "images/MM-06.png",
+    "format_rule": {
+      "sent_min": 1,
+      "sent_max": 2
+    },
+    "reference": "Not at eleven, I'm afraid: the room is booked by Finance from 10 to 12. It's free from 12 until 4, so you could take it at noon instead.",
+    "appropriate": "Eleven won't work because Finance has the room from 10 to 12, but it's open between 12 and 4, so any hour in that window would be fine.",
+    "foils": [
+      {
+        "target": "C",
+        "text": "Yes, eleven is fine: the room is free all morning and is only booked from 12 until 4."
+      },
+      {
+        "target": "A",
+        "text": "Negative on 11, FIN's got RmA 10-12 per the TUE grid; grab the 12-16 gap via the usual RB ticket and cc FM so the AV gets provisioned."
+      }
+    ],
+    "category": "multimodal",
+    "image_sha256": "c8e383567e6cb7a7f1139a7ae6c5e5174365beda5adfdac75d26e24404aca04b"
+  },
+  {
+    "id": "MM-07",
+    "phenomenon": "demonstrative reference ('these') and a request for a recommendation",
+    "costar": {
+      "context": "The user is packing for a full-day trek with no access to electricity and has sent a picture of two power banks, labelled A and B, showing their charge levels.",
+      "objective": "Help the user choose.",
+      "style": "Brief and practical.",
+      "tone": "Friendly.",
+      "audience": "A hiker packing in a hurry.",
+      "response": "One sentence."
+    },
+    "user_turn": "Which of these should I take?",
+    "image": "images/MM-07.png",
+    "format_rule": {
+      "sent_min": 1,
+      "sent_max": 1
+    },
+    "reference": "Take B, the one on the right: it is at 80% charge, whereas A is almost empty at 5%.",
+    "appropriate": "Go with power bank B on the right, since it shows 80% while A has only 5% left.",
+    "foils": [
+      {
+        "target": "C",
+        "text": "Take A, the one on the left: it is at 80% charge, whereas B is almost empty at 5%."
+      },
+      {
+        "target": "O",
+        "text": "The picture shows two power banks: A on the left at 5% and B on the right at 80%."
+      }
+    ],
+    "category": "multimodal",
+    "image_sha256": "667f1740c2d8bca685e33df1f685a44f4c315044c81a1d75e30451e6a940f7a2"
+  },
+  {
+    "id": "MM-08",
+    "phenomenon": "false presupposition to be corrected from a chart",
+    "costar": {
+      "context": "The attached chart shows the results of a staff survey on preferred canteen lunch options A, B and C. A colleague who favours option B is drafting an announcement.",
+      "objective": "Answer the colleague's question accurately, correcting any mistaken assumption.",
+      "style": "Conversational workplace English.",
+      "tone": "Tactful and matter-of-fact.",
+      "audience": "A colleague who hopes that option B has won.",
+      "response": "One or two sentences."
+    },
+    "user_turn": "So most people prefer option B, right?",
+    "image": "images/MM-08.png",
+    "format_rule": {
+      "sent_min": 1,
+      "sent_max": 2
+    },
+    "reference": "Not quite: option A is the most popular at 45%, while B comes second with 30% and C has 25%.",
+    "appropriate": "Actually, A came out on top with 45% of the votes; B was chosen by 30%, so it's second rather than the favourite.",
+    "foils": [
+      {
+        "target": "C",
+        "text": "Yes, that's right: option B is the most popular at 45%, while A comes second with 30%."
+      },
+      {
+        "target": "O",
+        "text": "The chart is a bar chart with three bars labelled A, B and C, and the vertical axis shows the percentage of staff."
+      }
+    ],
+    "category": "multimodal",
+    "image_sha256": "0eddf95d19e2327dc3c92d0b22219b4052ddeece4443c8d88579406d940b5f79"
+  },
+  {
+    "id": "MM-09",
+    "phenomenon": "request for permission answered from a road sign, under time pressure",
+    "costar": {
+      "context": "The user is driving in an unfamiliar town and has sent a picture of the sign at the entrance to the street directly ahead.",
+      "objective": "Answer the driver's question.",
+      "style": "Short and unambiguous.",
+      "tone": "Calm and firm.",
+      "audience": "A driver who needs an immediate answer.",
+      "response": "One sentence of no more than fifteen words."
+    },
+    "user_turn": "Is it fine if I drive straight ahead?",
+    "image": "images/MM-09.png",
+    "format_rule": {
+      "sent_min": 1,
+      "sent_max": 1,
+      "max_words": 15
+    },
+    "reference": "No, that is a no-entry sign, so you must not drive into that street.",
+    "appropriate": "No: the sign means no entry, so take another route.",
+    "foils": [
+      {
+        "target": "C",
+        "text": "Yes, the sign shows that the street ahead is open to all traffic."
+      },
+      {
+        "target": "R",
+        "text": "No, you should not drive straight ahead at this point in your journey. The sign that you have photographed is a no-entry sign, which is a red circle with a white horizontal bar. Signs of this kind mean that vehicles must not enter the street. You should therefore look for an alternative route."
+      }
+    ],
+    "category": "multimodal",
+    "image_sha256": "cd12b44434e4f4b89efbf8a9d27e937a67a3128453a98e927ffd56017fa41b9d"
+  },
+  {
+    "id": "MM-10",
+    "phenomenon": "recommendation grounded in a forecast, for a lay audience",
+    "costar": {
+      "context": "A family with two small children is planning a picnic this weekend and has sent a picture of the weather forecast.",
+      "objective": "Recommend a day.",
+      "style": "Simple and friendly, in everyday words.",
+      "tone": "Cheerful.",
+      "audience": "A parent planning a family outing.",
+      "response": "One sentence."
+    },
+    "user_turn": "Which day would you pick for the picnic?",
+    "image": "images/MM-10.png",
+    "format_rule": {
+      "sent_min": 1,
+      "sent_max": 1
+    },
+    "reference": "I'd pick Sunday: it's forecast to be sunny and 26 degrees with only a 5% chance of rain, whereas Saturday has a 90% chance of rain.",
+    "appropriate": "Sunday looks much better for a picnic, with sunshine, 26 degrees and almost no chance of rain, while Saturday is very likely to be wet.",
+    "foils": [
+      {
+        "target": "C",
+        "text": "I'd pick Saturday: it's forecast to be sunny and 26 degrees with only a 5% chance of rain, whereas Sunday has a 90% chance of rain."
+      },
+      {
+        "target": "A",
+        "text": "Sunday is preferable given a probability of precipitation of 0.05 versus 0.90 and a maximum of 26 degrees Celsius versus 19, implying markedly lower convective risk and superior thermal comfort indices for outdoor recreation."
+      }
+    ],
+    "category": "multimodal",
+    "image_sha256": "bf7462d3b68db7e5e05819a6e844e3ea477a3c62d35794a5143067b941cd23a6"
+  },
+  {
+    "id": "MM-11",
+    "phenomenon": "request for permission answered from a care label",
+    "costar": {
+      "context": "The user has sent a picture of the care label inside a new jumper.",
+      "objective": "Answer the user's question and say what to do instead.",
+      "style": "Brief and practical.",
+      "tone": "Friendly.",
+      "audience": "Someone doing the laundry.",
+      "response": "One sentence."
+    },
+    "user_turn": "Can I throw this in the dryer?",
+    "image": "images/MM-11.png",
+    "format_rule": {
+      "sent_min": 1,
+      "sent_max": 1,
+      "no_list": true
+    },
+    "reference": "No, the label says do not tumble dry; lay the jumper flat to dry instead.",
+    "appropriate": "Better not: according to the label it mustn't go in the tumble dryer, so dry it flat.",
+    "foils": [
+      {
+        "target": "C",
+        "text": "Yes, the label says the jumper is safe to tumble dry on high heat."
+      },
+      {
+        "target": "R",
+        "text": "No.\n\nCare instructions from the label:\n1. Material: 100% wool.\n2. Washing: hand wash only.\n3. Tumble drying: not allowed.\n4. Drying: lay flat.\n5. Recommendation: do not use the dryer."
+      }
+    ],
+    "category": "multimodal",
+    "image_sha256": "6b68cd782395cf2ad5fd0934490bbe09a397b4706e222be0109e437cfd519aaf"
+  },
+  {
+    "id": "MM-12",
+    "phenomenon": "safety-relevant choice read from a menu, for a lay audience",
+    "costar": {
+      "context": "The user is ordering lunch for a friend who has a nut allergy and has sent a picture of the cafe menu.",
+      "objective": "Help the user order safely.",
+      "style": "Clear and simple, in everyday words.",
+      "tone": "Careful and friendly.",
+      "audience": "Someone ordering on behalf of a friend with an allergy; not a food-safety specialist.",
+      "response": "One or two sentences."
+    },
+    "user_turn": "Which of these can I order for him?",
+    "image": "images/MM-12.png",
+    "format_rule": {
+      "sent_min": 1,
+      "sent_max": 2
+    },
+    "reference": "Avoid the cashew korma, which is marked as containing nuts; the tomato soup, paneer tikka and lemon rice are not marked, but it is worth confirming with the cafe staff.",
+    "appropriate": "The cashew korma is labelled 'contains nuts', so skip that one; the other three dishes carry no nut warning, though I'd double-check with the staff to be safe.",
+    "foils": [
+      {
+        "target": "C",
+        "text": "The cashew korma is the best choice for him, because the menu marks it as nut-free."
+      },
+      {
+        "target": "A",
+        "text": "Per the allergen legend, item 3 is contraindicated owing to Anacardium occidentale content; items 1, 2 and 4 present no declared tree-nut allergens, though cross-contact cannot be excluded absent HACCP documentation."
+      }
+    ],
+    "category": "multimodal",
+    "image_sha256": "36fdae5454eb619ed5ed9e5fb62715bbf790a492598f26016c7454f026be5f53"
+  }
+]

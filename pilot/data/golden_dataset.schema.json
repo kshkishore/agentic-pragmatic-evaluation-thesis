@@ -1,0 +1,131 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Golden Dataset item",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "category",
+    "phenomenon",
+    "costar",
+    "user_turn",
+    "image",
+    "format_rule",
+    "reference",
+    "appropriate",
+    "foils"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^(SA|ID|RC|MM)-[0-9]{2}$"
+    },
+    "category": {
+      "enum": [
+        "speech_acts",
+        "figurative",
+        "register_culture",
+        "multimodal"
+      ]
+    },
+    "phenomenon": {
+      "type": "string",
+      "minLength": 5
+    },
+    "costar": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "context",
+        "objective",
+        "style",
+        "tone",
+        "audience",
+        "response"
+      ],
+      "properties": {
+        "context": {
+          "type": "string",
+          "minLength": 5
+        },
+        "objective": {
+          "type": "string",
+          "minLength": 5
+        },
+        "style": {
+          "type": "string",
+          "minLength": 5
+        },
+        "tone": {
+          "type": "string",
+          "minLength": 5
+        },
+        "audience": {
+          "type": "string",
+          "minLength": 5
+        },
+        "response": {
+          "type": "string",
+          "minLength": 5
+        }
+      }
+    },
+    "user_turn": {
+      "type": "string",
+      "minLength": 3
+    },
+    "image": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^images/MM-[0-9]{2}\\.png$"
+    },
+    "image_sha256": {
+      "type": "string"
+    },
+    "format_rule": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "reference": {
+      "type": "string",
+      "minLength": 10
+    },
+    "appropriate": {
+      "type": "string",
+      "minLength": 10
+    },
+    "foils": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 2,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "target",
+          "text"
+        ],
+        "properties": {
+          "target": {
+            "enum": [
+              "C",
+              "O",
+              "S",
+              "T",
+              "A",
+              "R"
+            ]
+          },
+          "text": {
+            "type": "string",
+            "minLength": 10
+          }
+        }
+      }
+    }
+  }
+}
