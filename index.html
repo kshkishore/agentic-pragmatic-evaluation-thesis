@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Agentic Evaluation of Pragmatic Competence: thesis data</title>
+<meta name="description" content="Browse the Golden Dataset and reproduce every statistic, table and figure of the thesis in your browser, with nothing to install.">
+<link rel="stylesheet" href="site/style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <p class="eyebrow">PhD thesis · data and reproduction</p>
+    <h1>Agentic Evaluation of Pragmatic Competence in Multimodal Large Language Models</h1>
+    <p class="sub">A Prompt Engineering Approach · Katikela Sreeharsha Kishore · University of Hyderabad, 2026</p>
+    <nav class="tabs" role="tablist">
+      <button role="tab" data-tab="overview" aria-selected="true">Overview</button>
+      <button role="tab" data-tab="reproduce">Reproduce</button>
+      <button role="tab" data-tab="results">Results</button>
+      <button role="tab" data-tab="explore">Explore the dataset</button>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+<section id="overview" class="panel" role="tabpanel">
+  <div class="lead">
+    <p>This page runs the thesis analysis <strong>in your browser</strong>. There is nothing to install: Python, the data and the analysis scripts are loaded into the page, and every number is computed on your own computer.</p>
+  </div>
+  <div class="cards">
+    <article class="card"><h3>Reproduce</h3><p>Re-run the repository's own scripts on the logs of all 4,720 model calls. The page recomputes every statistic, checks each value against the published results, rebuilds the Chapter 4 tables and redraws the figures.</p><button class="primary" data-goto="reproduce">Go to Reproduce</button></article>
+    <article class="card"><h3>Results</h3><p>Read the Chapter 4 result tables and view the thesis figures exactly as published.</p><button data-goto="results">View results</button></article>
+    <article class="card"><h3>Explore</h3><p>Browse the 160 items of the Golden Dataset with their specifications, the three designed responses and how each judge and metric scored them, together with the replies of the two generators.</p><button data-goto="explore">Explore items</button></article>
+  </div>
+  <h2>The study in brief</h2>
+  <ul class="facts">
+    <li><b>160 items</b> in ten categories of pragmatic phenomena: idioms, indirect speech acts, implicature, irony, deixis, register, politeness, empathy, intercultural pragmatics and charts.</li>
+    <li>Each item has a user prompt, a six-field <b>CO-STAR specification</b>, a reference and three responses:
+      <ul>
+        <li><b>A</b>, appropriate;</li>
+        <li><b>B</b>, a pragmalinguistic failure that reuses the reference's wording;</li>
+        <li><b>C</b>, a sociopragmatic failure.</li>
+      </ul>
+      Together they give 320 contrasts with known orderings.</li>
+    <li><b>Two open-weight judges</b>, Qwen3-VL-4B-Instruct and Phi-4-mini-instruct, were compared with <b>17 automatic metrics</b>. A further experiment applied the judges to the replies of two generators.</li>
+    <li>Everything ran on a two-core CPU with deterministic, grammar-constrained decoding.</li>
+  </ul>
+  <p class="note">What runs in the browser: the analysis of the logged model calls (Level 1 in <a href="docs/REPRODUCING.md">docs/REPRODUCING.md</a>). Re-running the language models themselves (about 9&nbsp;GB of model files and 12 hours) or the neural metrics requires a local Python installation. The <a href="https://github.com/kshkishore/agentic-pragmatic-evaluation-thesis">repository</a> explains how.</p>
+</section>
+
+<section id="reproduce" class="panel" role="tabpanel" hidden>
+  <h2>Reproduce the thesis results</h2>
+  <p>Press <b>Run</b> to execute the repository's analysis in this page. On first use the browser downloads about 40&nbsp;MB (Python and its scientific packages, which are then cached) plus 5&nbsp;MB of data. The analysis itself takes about 2–5 minutes, depending on your computer. Keep this tab open while it runs.</p>
+  <div class="runbar">
+    <button id="run" class="primary big">Run the analysis</button>
+    <span id="elapsed" class="muted"></span>
+  </div>
+  <ol id="steps" class="steps"></ol>
+  <div id="verdict" class="verdict" hidden></div>
+  <div id="downloads" class="downloads" hidden></div>
+  <div id="run-tables"></div>
+  <div id="run-figs" class="gallery"></div>
+  <details class="log"><summary>Python output</summary><pre id="log"></pre></details>
+</section>
+
+<section id="results" class="panel" role="tabpanel" hidden>
+  <h2>Results as published</h2>
+  <p>These are the Chapter 4 tables, built from <code>study/results/summary_v2.json</code>, and the figures of the thesis. Use <a href="#" data-goto="reproduce">Reproduce</a> to recompute them yourself.</p>
+  <div id="pub-tables"></div>
+  <h2>Figures</h2>
+  <div id="pub-figs" class="gallery"></div>
+</section>
+
+<section id="explore" class="panel" role="tabpanel" hidden>
+  <h2>Explore the Golden Dataset</h2>
+  <div class="filters">
+    <label>Category <select id="f-cat"><option value="">All categories</option></select></label>
+    <label>Search <input id="f-q" type="search" placeholder="Words in the prompt or responses"></label>
+    <span id="f-count" class="muted"></span>
+  </div>
+  <div class="explorer">
+    <ul id="item-list" class="item-list" aria-label="Items"></ul>
+    <article id="item-view" class="item-view"><p class="muted">Select an item.</p></article>
+  </div>
+</section>
+
+</main>
+<footer class="wrap foot">
+  <p>Data: CC&nbsp;BY&nbsp;4.0 · Code: MIT · <a href="https://github.com/kshkishore/agentic-pragmatic-evaluation-thesis">Repository</a> · <a href="DATASET_CARD.md">Dataset card</a> · <a href="docs/THESIS_MAP.md">Thesis map</a></p>
+  <p class="muted">Content note: some designed C responses deliberately contain condescension or a stereotype, as examples of inappropriate replies.</p>
+</footer>
+<script src="site/app.js"></script>
+</body>
+</html>

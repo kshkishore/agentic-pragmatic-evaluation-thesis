@@ -46,6 +46,16 @@ It contains every dataset item and every model call made for the thesis, togethe
 - [`docs/REPRODUCING.md`](docs/REPRODUCING.md): how to re-run the analysis or the whole study.
 - [`docs/PROVENANCE.md`](docs/PROVENANCE.md): pilot, freeze, items written after the freeze, carried-over calls and the discarded run.
 
+## Run it in your browser
+
+The repository's web page runs the analysis in the browser with nothing to install: https://kshkishore.github.io/agentic-pragmatic-evaluation-thesis/
+
+- **Reproduce** loads Python (Pyodide) into the page and re-runs `study/analyze_v2.py`, `tools/tables_ch4.py` and the figure scripts on the logged model calls. It then checks every recomputed value against the published results. A run takes about 2–5 minutes.
+- **Results** shows the published tables and figures.
+- **Explore** lets you browse all 160 items, with every judge score, metric and generator reply.
+
+The page's code is `index.html` and `site/`.
+
 ## Quick start
 
 Load the dataset:
